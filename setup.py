@@ -15,6 +15,5 @@ setup(
   install_requires = [
     'setuptools',
     'numpy',
-    'rootpy>=0.7',
   ],
 )
