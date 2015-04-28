@@ -30,7 +30,11 @@ settings = {
 # Main logic
 # -------------------------------------
 
-raw_datas = ["1 2", "3 4"]
+raw_datas = """
+1 2
+3 4
+""".strip().split("\n")
+
 datas = [x.split() for x in raw_datas]
 app = App(settings)
 app.receive(datas)
